@@ -126,12 +126,11 @@ mysql> SHOW PROCESSLIST;
 
 As a simpler alternative, you can use mysqladmin, which should be included in your MySQL server packages:
 
-```
-$ mysqladmin -u root -p extended-status processlist```
+`$ mysqladmin -u root -p extended-status processlist`
 
 These options are great when you just need to check a metric value and you don’t want to bother with additional software. 
 
-When it comes to more advanced monitoring, however, our humble “poor man’s scripts” won’t cut it. So let’s take a look at some tools and solutions the MySQL community has come up with.
+When it comes to more advanced monitoring, however, our humble *poor man’s scripts* won’t cut it. So let’s take a look at some tools and solutions the MySQL community has come up with.
 
 ### MyTOP / Mtop / Innotop
 
